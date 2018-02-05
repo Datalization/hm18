@@ -1,3 +1,9 @@
 面向对象编程——Object Oriented Programming
 
 在Python中，所有的数据类型都可以视为对象
+
+Class 类
+Instance 实例
+#比如a.py 中，class——Student, Instance——Bart Simpson
+
+面向对象的设计思路：抽象出class，根据class创建Instance
