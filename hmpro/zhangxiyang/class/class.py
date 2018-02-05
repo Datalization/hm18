@@ -9,5 +9,5 @@ class student(object):
 if __name__  == "main":
     bart = student('Bart Li',58)
     lily = student("Lily Ha",79)
-    print_score(bart)
-    print_score(lily) 
+    bart.print_score()
+    lily.print_score() 
