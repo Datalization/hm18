@@ -1,4 +1,5 @@
 class Student(object):
+
     name = ""
     score= 5
 
