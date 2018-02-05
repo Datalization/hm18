@@ -7,7 +7,7 @@ class people:
         self.age = a
         self.__weight = w
     def speak(self):
-        print("%s 说：我今年 %d 岁" %（self.name, self.age)
+        print("%s 说：我今年 %d 岁" %（self.name, self.age))
 
 p = pelple('runoob', 10, 30)
 p.speak()
