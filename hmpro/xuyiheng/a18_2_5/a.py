@@ -10,14 +10,16 @@ def print_score(std):
 #面向对象
 
 class Student(object):
-    def__init__(self, name, score):
-         self.name = name
-         self.score = score
+
+    def __init__ (self, name, score):
+
+        self.name = name
+        self.score = score
 
     def print_score(self):
-        print('%s, %s' % (self.name, self.score))
-
+    	 print("asf")
+         print(self.name,self.score)
 bart = Student('Bart Simpson', 59)
 lisa = Student('Lisa Simpson', 87)
-bar.print_score
-lisa.print_score
+bart.print_score()
+lisa.print_score()
