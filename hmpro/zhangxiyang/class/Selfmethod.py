@@ -11,4 +11,4 @@ class site:
 
 w = site("emmmm","www.ha.com")
 w.ha()
-#w.__ha()
+#w.__ha()(报错)
