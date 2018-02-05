@@ -23,3 +23,8 @@ class ClassName:
 def__init__(self):
     self.data = []
 参数通过__init__()传递到类的实例化操作上
+
+self代表类的实例
+类的方法与普通函数的区别：第一个位置必须有一个额外的参数，按惯例是self
+用 self 可以调用其他类中的方法
+self 指向当前对象的地址， 而self.class指向类
