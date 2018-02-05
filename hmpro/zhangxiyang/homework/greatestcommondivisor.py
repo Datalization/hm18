@@ -2,7 +2,9 @@ a = input("输入第一个数字")
 b = input("输入第二个数字")
 a = int(a)
 b = int(b)
+
 def greatestcommondivisor(a, b):
+
    if a > b:
        smaller = b
    else:
