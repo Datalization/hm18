@@ -17,7 +17,7 @@ class Student(object):
         self.score = score
 
     def print_score(self):
-    	 print("asf")
+         print("asf")
          print(self.name,self.score)
 bart = Student('Bart Simpson', 59)
 lisa = Student('Lisa Simpson', 87)
