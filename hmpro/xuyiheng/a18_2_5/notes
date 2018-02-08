@@ -1,0 +1,39 @@
+面向对象编程——Object Oriented Programming
+
+在Python中，所有的数据类型都可以视为对象
+
+Class 类
+Instance 实例
+#比如a.py 中，class——Student, Instance——Bart Simpson
+
+面向对象的设计思路：抽象出class，根据class创建Instance
+
+类（Class）：用来描述具有相同属性和方法的集合。定义了该集合每个对象共有的属性和方法。对象是
+类的实例
+类变量：在类中且在函数之外。
+继承：一个派生类继承基类的字段和方法。继承也允许把一个派生类作为一个基类对象来对待。
+
+语法格式：
+class ClassName:
+    <statement-1>
+    ......
+    <statement-N>
+
+类对象：很多类都倾向于将对象创建为初始状态的，因此可能会定义一个名为__init__()的特殊方法
+def__init__(self):
+    self.data = []
+参数通过__init__()传递到类的实例化操作上
+
+self代表类的实例
+类的方法与普通函数的区别：第一个位置必须有一个额外的参数，按惯例是self
+用 self 可以调用其他类中的方法
+self 指向当前对象的地址， 而self.class指向类
+
+继承的意义
+
+类的私有属性
+两个下划线开头，表示改属性为私有，不能再类的外部被使用或直接访问。
+在类之内的使用方法是self.__XXXXXX
+
+类的私有方法
+开头家两个下划线
